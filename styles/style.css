@@ -4,12 +4,12 @@
   box-sizing: border-box;
   font-family: Gilroy;
 }
-body {
+html {
+  max-width: 1440px;
   margin: 0 auto;
   background-color: #00bbf0;
   background: url("../img/bg_main.jpg") no-repeat;
   background-size: cover;
-  max-width: 1440px;
 }
 section {
   max-width: 1112px;
@@ -18,14 +18,11 @@ section {
 header {
   display: flex;
   margin: 0 auto;
-
   justify-content: space-between;
 }
 header_link,
 a {
   text-decoration: none;
-  font-family: Gilroy;
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
@@ -34,7 +31,7 @@ a {
   text-align: center;
   letter-spacing: 0.5px;
   color: #d9faff;
-  margin: 50.5681px 0px;
+  margin-top: 50px;
 }
 
 header_button,
@@ -65,7 +62,7 @@ button {
 
 .header_title {
   display: block;
-  margin: 228px auto 0;
+  margin: 180px auto 0;
 
   font-weight: bold;
   font-size: 46px;
@@ -107,4 +104,41 @@ button {
 .social_link a {
   margin: 0 auto;
   justify-content: space-between;
+}
+
+/* possibility section */
+
+.possibility_title {
+  display: block;
+  text-align: center;
+  margin-top: 192.5px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  color: #00204a;
+}
+
+.possibility_info {
+  display: flex;
+  margin-top: 62px;
+}
+
+.possibility_post {
+  max-width: 349px;
+}
+
+.post_title {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00204a;
+}
+
+.post_info {
+  margin-top: 17px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #00204a;
 }
